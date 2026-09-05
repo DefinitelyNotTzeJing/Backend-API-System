@@ -5,6 +5,7 @@ import com.example.jobapi.domain.Job;
 import com.example.jobapi.domain.JobStatus;
 import com.example.jobapi.repository.ApplicationRepository;
 import com.example.jobapi.repository.JobRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -21,6 +22,7 @@ public class JobService {
     private final ApplicationRepository applications;
     private final Clock clock;
 
+    @Autowired
     public JobService(JobRepository jobs, ApplicationRepository applications) {
         this(jobs, applications, Clock.systemUTC());
     }

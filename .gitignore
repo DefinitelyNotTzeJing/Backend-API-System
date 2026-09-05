@@ -2,4 +2,8 @@ node_modules/
 .env
 coverage/
 *.log
-
+target/
+bin/
+.idea/
+.vscode/
+*.iml
