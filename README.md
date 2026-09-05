@@ -80,6 +80,8 @@ Successful creates return `201 Created`. Invalid input returns `400 Bad Request`
 
 The application uses a conventional layered structure:
 
+More detailed component, sequence, data-model, and lifecycle diagrams are available in [`docs/SYSTEM_DIAGRAMS.md`](docs/SYSTEM_DIAGRAMS.md).
+
 ```text
 HTTP request
     ↓
