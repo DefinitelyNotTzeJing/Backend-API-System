@@ -30,7 +30,7 @@ Concurrency locking and production-database compatibility are important but are 
 | APP-07 | List | Missing job | `404 NOT_FOUND` | Integration + unit |
 | APP-08 | List | Multiple applications | Newest first, including after close | Integration |
 | API-01 | Serialization | Success responses | Stable field names and ISO-8601 timestamps | Integration |
-| API-02 | Errors | Domain and validation failures | Stable code/message/timestamp/fields envelope | Integration |
+| API-02 | Errors | Domain and validation failures | Stable code/message/timestamp/fields envelope | Integration |1
 
 ## Execution
 
